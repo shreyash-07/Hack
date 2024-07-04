@@ -14,7 +14,7 @@
         <%- include('./partials/nav.ejs') %>
        <%- include('./partials/scripts.ejs') %>
        <form action="/user/upload" method="post" enctype="multipart/form-data">
-        <input type="file" name="Pdf">
+        <input type="file" name="Pdf" accept="application/pdf">
             <button type="submit">Upload</button>
         </form>
     </div>
