@@ -8,7 +8,7 @@ const PORT=8000;
 
 import userRouter from './routes/user.routes.js';
 
-mongoose.connect('mongodb://localhost:27017/blogapp')
+mongoose.connect('mongodb+srv://Recursive123:recursive123@recursive1.za2hlzu.mongodb.net/?retryWrites=true&w=majority&appName=Recursive1')
 .then((e)=>console.log("MongoDB Connected"));
 
 
